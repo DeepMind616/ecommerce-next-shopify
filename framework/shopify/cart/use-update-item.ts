@@ -6,7 +6,7 @@ import { Cart } from "@common/types/cart"
 import { MutationHook } from "@common/types/hooks"
 import { CheckoutLineItemsUpdatePayload } from "@framework/schema"
 import { checkoutToCart, getCheckoutId } from "@framework/utils"
-import { checkoutLineItemsUpdateMutation } from "@framework/utils/mutations"
+import { checkoutLineItemsUpdateMutation } from "@framework/utils/Mutations"
 import useCart from "./use-cart"
 
  
